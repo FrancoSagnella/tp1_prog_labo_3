@@ -186,6 +186,7 @@
         </table>
         <hr/>
         <a href="./backend/cerrarSesion.php">Cerrar sesion</a>
+        <a href="./../index.php">Volver al selector de versiones</a>
     </div>
 </body>
 

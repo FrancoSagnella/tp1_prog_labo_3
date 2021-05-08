@@ -3,6 +3,13 @@
     <head>
         <meta charset="utf 8" />
         <title>HTML5 -  Seleccion de TP</title>
+        <?php
+                session_start();
+                if(isset($_SESSION['DNIEmpleado']))
+                {
+                    $_SESSION = array();
+                }
+        ?>
     </head>
     <body>
         <table>
