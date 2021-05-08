@@ -1,0 +1,6 @@
+Ivan - Sanchez - 1000001 - M - 101 - 9000 - Tarde - ./fotos/1000001-Sanchez.jpg
+Hernesto - Alvarez - 1000002 - M - 102 - 8500 - Noche - ./fotos/1000002-Alvarez.jpg
+Hugo - Sagnella - 1000019 - M - 116 - 9000 - Maniana - ./fotos/1000019-Sagnella.jpg
+NombreRandom - ApellidoRandom - 1000017 - M - 122 - 8000 - Maniana - ./fotos/1000017-ApellidoRandom.jpg
+Jose - Sagnella - 1000008 - M - 108 - 9500 - Tarde - ./fotos/1000008-Sagnella.jpg
+Franco - Sagnella - 1000000 - M - 100 - 11000 - Maniana - ./fotos/1000000-Sagnella.jpg
