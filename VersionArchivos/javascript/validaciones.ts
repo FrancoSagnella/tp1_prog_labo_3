@@ -196,7 +196,7 @@ function VerificarValidacionesIndex():boolean
 function AdministrarModificar(dni : string, apellido:string, nombre:string, sexo:string, legajo:string, sueldo:string, turno:string):void
 {
     (<HTMLInputElement> document.getElementById("accion")).value = 'modificar';
-
+    
     (<HTMLInputElement> document.getElementById("txtDni")).value = dni;
     (<HTMLInputElement> document.getElementById("txtDni")).readOnly = true;
     (<HTMLInputElement> document.getElementById("txtApellido")).value = apellido;
