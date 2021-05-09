@@ -91,7 +91,7 @@ function Modificar($fabrica, $empleado)
         //si se encuentra el empleado a modificar
         if ($value->getDni() == DNI) {
             //Lo elimino (con su foto)
-            if (Eliminar($fabrica, $value)) {
+            if (validarFoto($empleado->getPathFoto()) != false && Eliminar($fabrica, $value) != false) {
                 $ret = Agregar($fabrica, $empleado);
                 break;
             }
