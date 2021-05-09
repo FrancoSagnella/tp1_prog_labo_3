@@ -22,7 +22,7 @@ switch ($accion) {
 
         $tempPath = "./fotos/" . $_FILES["archivo"]["name"];
         $extension = pathinfo($tempPath, PATHINFO_EXTENSION);
-        $_FILES["archivo"]["name"] = DNI . "-" . APELLIDO . "." . $extension;
+        $_FILES["archivo"]["name"] = DNI . "-" . APELLIDO . "-" . date("Gis") . "." . $extension;
         $fotoPath = "./fotos/" . $_FILES["archivo"]["name"];
 
         $empleado = new Empleado(NOMBRE, APELLIDO, DNI, SEXO, LEGAJO, SUELDO, TURNO, $fotoPath);
